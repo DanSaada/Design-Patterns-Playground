@@ -82,9 +82,7 @@ class Student implements Observer {
             }
         }
     }
-}
 
-public class Main {
     public static void main(String[] args) {
         Moodle moodle = new Moodle();
         Student s = new Student(moodle);
@@ -94,3 +92,4 @@ public class Main {
         moodle.setScore("algo", 95);
     }
 }
+
