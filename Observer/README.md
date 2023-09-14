@@ -1,4 +1,4 @@
-#  Design Pattern
+# Observer Design Pattern
 
 ## Definition:
 The Observer design pattern is a behavioral pattern that defines a one-to-many dependency 
