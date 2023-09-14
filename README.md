@@ -4,6 +4,8 @@
 
 Welcome to the Design Patterns Playground repository, a treasure trove of software design patterns implemented in a variety of programming languages. In the world of software engineering, design patterns are essential building blocks that help you solve common problems with elegant and well-tested solutions. Whether you're a seasoned developer looking to refresh your knowledge or a newcomer eager to learn, this repository is your one-stop resource for exploring and understanding design patterns.
 
+<img width="400" height="400" alt="Design-Patterns-Playground-Logo" src="https://github.com/DanSaada/Design-Patterns-Playground/assets/112869076/8fe7f44e-e32d-4204-9c64-09415847d5ab">
+
 
 ## Repository Overview:
 
