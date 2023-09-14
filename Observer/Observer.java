@@ -82,7 +82,10 @@ class Student implements Observer {
             }
         }
     }
+}
 
+// make sure to put this class in another file.
+public class Main {
     public static void main(String[] args) {
         Moodle moodle = new Moodle();
         Student s = new Student(moodle);
@@ -92,4 +95,3 @@ class Student implements Observer {
         moodle.setScore("algo", 95);
     }
 }
-
