@@ -27,10 +27,10 @@ public:
 // Abstraction
 class Shape {
 protected:
-    ColorImplementor* color_impl;
+    ColorImplementor* colorImpl;
 
 public:
-    Shape(ColorImplementor* impl) : color_impl(impl) {}
+    Shape(ColorImplementor* impl) : colorImpl(impl) {}
 
     virtual void draw() = 0;
 };
@@ -41,7 +41,7 @@ public:
     Circle(ColorImplementor* impl) : Shape(impl) {}
 
     void draw() override {
-        cout << color_impl->fillColor() << " Circle" << endl;
+        cout << colorImpl->fillColor() << " Circle" << endl;
     }
 };
 
@@ -50,7 +50,7 @@ public:
     Square(ColorImplementor* impl) : Shape(impl) {}
 
     void draw() override {
-        cout << color_impl->fillColor() << " Square" << endl;
+        cout << colorImpl->fillColor() << " Square" << endl;
     }
 };
 
